@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML</title>
+</head>
+<body>
+  <div id="myDiv">
+    <p>This is some text.</p>
+  </div>
+  <script>
+    let newParagraph = document.createElement('p');
+    newParagraph.textContent = 'This is more text';
+    document.getElementById('myDiv').appendChild(newParagraph);
+  </script>
+</body>
+</html>
